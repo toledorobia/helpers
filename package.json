@@ -1,0 +1,24 @@
+{
+  "name": "@toledorobia/helpers",
+  "version": "1.0.2",
+  "description": "Some common helpers.",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "rimraf dist && node ./esbuild.js"
+  },
+  "author": "Jonathan Toledo Orobia <autoindent.dev@outlook.com> (https://github.com/toledorobia)",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.12.20",
+    "esbuild-node-externals": "^1.3.0",
+    "esbuild-plugin-sass": "^0.6.0",
+    "node-sass": "^6.0.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "lodash": "^4.17.21",
+    "sweetalert2": "^11.1.2",
+    "bootstrap": "^5.1.0"
+  }
+}
