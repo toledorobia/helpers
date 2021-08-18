@@ -4,7 +4,7 @@ const show = (type, message) => {
   Swal.fire({
     position: "top-end",
     toast: true,
-    timer: 100000,
+    timer: 5000,
     showConfirmButton: false,
     padding: 0,
     background: "transparent",
