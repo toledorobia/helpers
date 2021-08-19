@@ -1,10 +1,11 @@
 {
   "name": "@toledorobia/helpers",
   "version": "1.0.4",
-  "description": "Some common helpers.",
+  "description": "A very simple helpers library.",
   "main": "dist/bundle.js",
   "scripts": {
-    "build": "rimraf dist && node ./esbuild.js"
+    "docs": "rimraf docs && jsdoc -c jsdoc.json",
+    "build": "rimraf dist && npm run docs && node ./esbuild.js"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,7 @@
     "esbuild": "^0.12.20",
     "esbuild-node-externals": "^1.3.0",
     "esbuild-plugin-sass": "^0.6.0",
+    "jsdoc": "^3.6.7",
     "node-sass": "^6.0.1",
     "rimraf": "^3.0.2",
     "typescript": "^4.3.5"

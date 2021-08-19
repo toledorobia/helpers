@@ -1,3 +1,5 @@
 src
+docs
 examples
 esbuild.js
+jsdoc.json
